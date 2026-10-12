@@ -17,7 +17,7 @@
   <h2>Hangi veriler, nerede</h2>
   <ul>
     <li><strong>Hesap:</strong> e-posta adresi ve şifre, giriş için kullanılır (Supabase Auth). Şifre düz metin olarak saklanmaz.</li>
-    <li><strong>Uygulama verileri:</strong> alışkanlıklar, kayıtlar, odak oturumları, görevler, kitaplar ve kayıtlı yerler, kullanıcının hesabına bağlı olarak uygulamanın veritabanında (Supabase) tutulur. Her kullanıcı yalnızca kendi verisini görebilir.</li>
+    <li><strong>Uygulama verileri:</strong> alışkanlıklar, kayıtlar, odak oturumları, görevler, kitaplar ve kayıtlı yerler, kullanıcının hesabına bağlı olarak uygulamanın veritabanında (Supabase) tutulur. Her kullanıcı uygulamada yalnızca kendi verisini görebilir. Uygulamanın işletmecisi, sunucu yöneticisi olarak veritabanına teknik olarak erişebilir; bu erişimi yalnızca destek ve bakım için kullanır.</li>
     <li><strong>Cihaz:</strong> aynı veriler internetsiz çalışmak için cihazda da saklanır.</li>
   </ul>
 
@@ -50,7 +50,7 @@
     <h2>What data, where</h2>
     <ul>
       <li><strong>Account:</strong> e-mail address and password for sign-in (Supabase Auth). Passwords are not stored in plain text.</li>
-      <li><strong>App data:</strong> habits, logs, focus sessions, tasks, books and saved places are stored in the app's database (Supabase), tied to the user's account. Each user can only access their own data.</li>
+      <li><strong>App data:</strong> habits, logs, focus sessions, tasks, books and saved places are stored in the app's database (Supabase), tied to the user's account. In the app, each user can only access their own data. The operator of the app can technically access the database as its administrator and uses that access only for support and maintenance.</li>
       <li><strong>Device:</strong> the same data is also kept on the device so the app works offline.</li>
     </ul>
 
